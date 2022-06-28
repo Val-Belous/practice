@@ -6,9 +6,15 @@
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <form class="form" action="submit">
+      <input name="query" type="text" />
+
+      <button type="submit">Find music</button>
+    </form>
+
+    <ul class="container"></ul>
   </body>
 </html>
